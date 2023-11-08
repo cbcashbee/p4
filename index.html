@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Danmission prototype</title>
+        <title>Danmission prototype af Cecilie Cashbee</title>
         <link rel="stylesheet" href="stylesheets/main.css">
         <script src="scripts/dropdown.js" defer></script>
     </head>
@@ -19,7 +19,21 @@
                 <li><a>Støt</a></li>
                 <li><a>Vær med</a></li>
                 <li><a>Genbrug</a></li>
-                <li><a>Vores arbejde</a></li>
+                <li><a>Vores arbejde</a>
+                    <div class="dropdown"></div>
+                    <button onclick="navDropdown()" class="dropbtn">
+                        <svg width="15" height="15" class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 8">
+                            <path stroke="#64a70b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
+                          </svg>
+                    </button>
+                    <div id="drop-vores-arbejde" class="drop-indhold">
+                        <a>Kampagne: Sammen for en bedre verden</a>
+                        <a>Vores arbejde</a>
+                        <a>Eksempler på Danmissions arbejde</a>
+                        <a>Her arbejder vi</a>
+                        <a>Oplysning og engagement</a>
+                    </div>
+                </li>
             </ul>
             <ul>
                 <li>
